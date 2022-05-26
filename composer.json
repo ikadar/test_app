@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "php": ">=7.3.0"
+        "php": ">=7.3.0",
+        "ikadar/test_generated": ">=1.0.0"
     },
     "autoload": {
         "psr-4": {
