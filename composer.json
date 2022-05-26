@@ -1,6 +1,6 @@
 {
     "name": "ikadar/wheeltest",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "library",
     "description": "Test only",
     "keywords": ["test"],
