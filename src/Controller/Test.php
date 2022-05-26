@@ -15,7 +15,7 @@ class Test extends AbstractController
      */
     public function test1() : JsonResponse
     {
-        $info = "TEST01";
+        $info = "TEST01!";
 
         dump($info);
         die();
@@ -31,7 +31,7 @@ class Test extends AbstractController
      */
     public function test2() : JsonResponse
     {
-        $info = "TEST02";
+        $info = "TEST02!";
 
         dump($info);
         die();
