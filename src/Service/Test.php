@@ -5,6 +5,6 @@ namespace TestApp\Service;
 class Test {
   public function test()
   {
-    return "TEST SERVICE";
+    return "TEST SERVICE2";
   }
 }
