@@ -3,13 +3,13 @@
     "type": "library",
     "description": "Test only",
     "keywords": ["test"],
-    "homepage": "https://github.com/Seldaek/monolog",
+    "homepage": "https://test.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jordi Boggiano",
-            "email": "j.boggiano@seld.be",
-            "homepage": "http://seld.be",
+            "name": "Istvan Kadar",
+            "email": "ikadar@test.com",
+            "homepage": "http://test.com",
             "role": "Developer"
         }
     ],
