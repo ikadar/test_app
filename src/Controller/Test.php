@@ -8,14 +8,23 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
+use TestApp\Service\Test as TestService;
+
 class Test extends AbstractController
 {
+    protected $testService;
+    
+    public function __construct(TestService $testService)
+    {
+        $this->testService = $testService;
+    }
+    
     /**
      * @Route("/test1", methods={"GET"})
      */
     public function test1() : JsonResponse
     {
-        $info = "TEST01 feature-01!";
+        $info = "TEST01 feature-01!" . " " . $this->testService->test();
 
         dump($info);
         die();
