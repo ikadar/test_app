@@ -1,6 +1,6 @@
 {
     "name": "ikadar/wheeltest",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "library",
     "description": "Test only",
     "keywords": ["test"],
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Monolog": "src"
+            "TestWheelApp": "src"
         }
     }
 }
