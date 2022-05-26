@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\App\Controller;
+namespace TestWheelApp\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
