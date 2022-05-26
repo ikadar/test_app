@@ -15,7 +15,7 @@ class Test extends AbstractController
      */
     public function test1() : JsonResponse
     {
-        $info = "TEST01 feature-01";
+        $info = "TEST01 feature-01!";
 
         dump($info);
         die();
