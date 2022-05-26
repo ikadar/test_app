@@ -22,7 +22,7 @@ class Test extends AbstractController
     /**
      * @Route("/test", methods={"GET"})
      */
-    public function test1() : JsonResponse
+    public function test() : JsonResponse
     {
         $info = "TEST";
 
