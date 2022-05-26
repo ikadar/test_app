@@ -20,6 +20,23 @@ class Test extends AbstractController
     }
     
     /**
+     * @Route("/test", methods={"GET"})
+     */
+    public function test1() : JsonResponse
+    {
+        $info = "TEST";
+
+        dump($info);
+        die();
+
+        return new JsonResponse(
+            $info,
+            JsonResponse::HTTP_OK
+        );
+    }
+
+    
+    /**
      * @Route("/test1", methods={"GET"})
      */
     public function test1() : JsonResponse
