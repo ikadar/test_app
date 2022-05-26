@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace TestApp\Service;
 
 class Test {
   public function test()
