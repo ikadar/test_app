@@ -1,8 +1,8 @@
 {
     "name": "ikadar/test_app",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "type": "library",
-    "description": "Test only",
+    "description": "Test onlyx",
     "keywords": ["test"],
     "homepage": "https://test.com",
     "license": "MIT",
