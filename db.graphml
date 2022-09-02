@@ -4,6 +4,6 @@
 <key id="labels" for="node" attr.name="labels"/>
 <graph id="G" edgedefault="directed">
 <node id="n0" labels=":section"><data key="labels">:section</data><data key="fr">word01</data></node>
-<node id="n1" labels=":section"><data key="labels">:section</data><data key="fr">word02</data></node>
+<node id="n3" labels=":section"><data key="labels">:section</data><data key="fr">word03</data></node>
 </graph>
 </graphml>
