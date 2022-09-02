@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="fr" for="node" attr.name="fr"/>
+<key id="labels" for="node" attr.name="labels"/>
+<graph id="G" edgedefault="directed">
+<node id="n0" labels=":section"><data key="labels">:section</data><data key="fr">word01</data></node>
+<node id="n1" labels=":section"><data key="labels">:section</data><data key="fr">word02</data></node>
+</graph>
+</graphml>
